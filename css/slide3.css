@@ -1,0 +1,15 @@
+
+.slide3{
+    background: linear-gradient( #00939c 30%, #f8f9fd 0);
+    background-size:100% 30px;
+}
+
+.slide3 .pic1{
+    width: 40%;
+    height: 60%;
+    background-color:#ff798a;
+    float: right;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-right: 30%;
+}
