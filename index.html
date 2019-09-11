@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/slide/slide1.css" />
+    <link rel="stylesheet" type="text/css" href="css/slide/slide2.css" />
+    <link rel="stylesheet" type="text/css" href="css/slide/slide3.css" />
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/jquery-scrollify/jquery.scrollify.js"></script>
+    <title>Document</title>
+    <script>
+        $(function() {
+            $.scrollify({
+                section : ".section",
+                scrollbars: true,
+            });
+        });
+    </script>
+</head>
+<body>
+    <section class="slide slide1">
+        <div class="slide1_pic-strip"></div>
+        <div class="slide1_pic-background"></div>
+        <div class="text slide1_text">
+            <div class="text__inner">
+                <h1>Почему мой брат неудачник?</h1>
+                <h2>Краткий разбор.</h1>
+            </div>
+        </div>
+    </section>
+    <section class="slide slide2">
+        <div class="slide2_pic-strip"></div>
+        <div class="text slide2_text">
+            <div class="text__inner">
+                <h1>Живет в моей комнате.</h1>
+                <h2>
+                    Проведенное исследование показало, что
+                    брат спит в моей комнате. Возможно
+                    потому, что там есть частичка меня, а значит, он
+                    боится быть один. Вывод -
+                    несамостоятельный.
+                </h2>
+            </div>
+        </div>
+    </section>
+    <section class="slide slide3">
+        <div class="text slide3_text">
+            <div class="text__inner">
+                <h1>Постоянно пьет энергетики.</h1>
+                <h2>
+                    Инспектирование комнаты брата дало неожиданные 
+                    результаты - он коллекционирует банки от энергетиков. 
+                    Оцененный размер коллекции - около 20 банок. Беседа с 
+                    братом выявила, что деньги от берет со сдачи, которую 
+                    мама отдает ему после похода в магазин. По оценке 
+                    эксперта, брат мог бы купить себе вместо энергетиков 
+                    хорошую мышку, а не брать каждый раз мышку эксперта.
+                </h2>
+            </div>
+        </div>
+    </section>
+    <section class="slide slide3">
+        <div class="text slide3_text">
+            <div class="text__inner">
+                <h1>Стирает только свои вещи.</h1>
+                <h2>
+                    Не закидывает в стиральную машину 
+                    чужие вещи тоже, вывод - неэкономный.
+                </h2>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

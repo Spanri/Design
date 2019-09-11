@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:700');
+
+body {
+    margin: 0;
+    overflow: -moz-scrollbars-vertical; 
+    overflow-y: scroll;
+}
+
+* {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.slide {
+    height: 100vh;
+    width: calc(100vw - 17px);
+}
+
+@media (max-width: 720px) {
+    body {
+        overflow: auto; 
+        overflow-y: auto;
+    }
+
+    .slide {
+        width: 100vw;
+    }
+}
+
+/* миксин */
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+}
+
+.text__inner {
+    padding: 30px;
+}

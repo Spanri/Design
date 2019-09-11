@@ -1,0 +1,27 @@
+
+.slide2 {
+    background-color:#ffced4;
+}
+
+.slide2_pic-strip {
+    margin: 0 auto;
+    width: 40%;
+    height: 100%;
+    background-color:#00939c;
+}
+
+.slide2_text .text__inner {
+    max-width: 35%;
+}
+
+@media (max-width: 1000px) {
+    .slide2_text .text__inner {
+        max-width: 60%;
+    }
+}
+
+@media (max-width: 550px) {
+    .slide2_text .text__inner {
+        max-width: 90%;
+    }
+}

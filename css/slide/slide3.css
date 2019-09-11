@@ -1,0 +1,30 @@
+
+.slide3 {
+    background: linear-gradient( #00939c 30%, #f8f9fd 0);
+    background-size: 100% 30px;
+}
+
+.slide3_text .text__inner {
+    max-width: 50%;
+    background-color:#ff798a;
+}
+
+@media (max-width: 1000px) {
+    .slide3_text .text__inner {
+        max-width: 60%;
+    }
+
+    .slide3_pic-square {
+        width: 70%;
+    }
+}
+
+@media (max-width: 550px) {
+    .slide3_text .text__inner {
+        max-width: 80%;
+    }
+
+    .slide3_pic-square {
+        width: 90%;
+    }
+}
