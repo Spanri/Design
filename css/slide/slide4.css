@@ -1,0 +1,22 @@
+
+.slide4 {
+    background: linear-gradient(90deg, #7072ff 70%, #f8f9fd 0);
+    background-size: 100% 30px;
+}
+
+.slide4_text .text__inner {
+    max-width: 50%;
+    background-color:#ffbd2d;
+}
+
+@media (max-width: 1000px) {
+    .slide4_text .text__inner {
+        max-width: 60%;
+    }
+}
+
+@media (max-width: 550px) {
+    .slide4_text .text__inner {
+        max-width: 100%;
+    }
+}

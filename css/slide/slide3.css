@@ -13,18 +13,10 @@
     .slide3_text .text__inner {
         max-width: 60%;
     }
-
-    .slide3_pic-square {
-        width: 70%;
-    }
 }
 
 @media (max-width: 550px) {
     .slide3_text .text__inner {
         max-width: 80%;
-    }
-
-    .slide3_pic-square {
-        width: 90%;
     }
 }

@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC:700');
 
-<<<<<<< HEAD
 body {
     margin: 0;
     overflow: -moz-scrollbars-vertical; 
@@ -8,18 +7,10 @@ body {
 }
 
 * {
-=======
-body{
-    margin: 0;
-}
-
-*{
->>>>>>> eb924bf00b357a5d159b7f9bdc975f330194a8c4
     text-align: center;
     font-family: 'Amatic SC', cursive;
 }
 
-<<<<<<< HEAD
 h1 {
     font-size: 45px;
 }
@@ -58,12 +49,4 @@ h2 {
 
 .text__inner {
     padding: 30px;
-=======
-h1{
-    font-size: 45px;
-}
-
-h2{
-    font-size: 30px;
->>>>>>> eb924bf00b357a5d159b7f9bdc975f330194a8c4
 }
