@@ -1,0 +1,17 @@
+
+.slide1 .pic1{
+    width: 10%;
+    height: 100vh;
+    background-color:#ffbd2d;
+    float: right;
+    position: relative;
+    z-index: 1;
+    right: 10%;
+}
+
+.slide1 .pic2{
+    text-align: center;
+    height: 100vh;
+    background: #ffced4;
+    clip-path: polygon(100% 24%, 100% 100%, 83% 99%, 0 78%, 0 0);
+}
